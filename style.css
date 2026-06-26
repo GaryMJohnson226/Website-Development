@@ -1,0 +1,22 @@
+nav a{
+    color: red;
+    font-size: 36px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border: 5px solid black;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: Center;
+    font-size: 40px;
+}
+
+h2.subtitle {
+    font-style: italic;
+    text-align: Center;
+}
