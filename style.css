@@ -20,3 +20,23 @@ h2.subtitle {
     font-style: italic;
     text-align: Center;
 }
+
+p {
+    font-size: 24px;
+}
+
+.wrapped {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.wrapped img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.wrapped-text {
+    flex: 1;
+}
