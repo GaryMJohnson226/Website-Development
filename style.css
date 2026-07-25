@@ -67,6 +67,18 @@ footer {
     height: auto;
 }
 
+.wrapped-products {
+    display: flex;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.prod-img {
+    width: 250px;
+}
+.wrapped-textProd {
+    flex: 1;
+}
 
 @media screen and (max-width: 700px) {
     header {
