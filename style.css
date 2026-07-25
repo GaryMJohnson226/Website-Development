@@ -76,8 +76,18 @@ footer {
 .prod-img {
     width: 250px;
 }
+
 .wrapped-textProd {
     flex: 1;
+}
+
+.productsList {
+    margin-bottom: 15px;
+}
+
+.productsList li {
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 @media screen and (max-width: 700px) {
