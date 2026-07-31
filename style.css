@@ -90,6 +90,24 @@ footer {
     line-height: 1.5;
 }
 
+.indexAdd {
+    border: 5px solid black;
+    width: 80%;
+    margin: 30px auto;
+
+}
+
+.prodLines {
+    border: 5px solid rgb(6, 115, 158);
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.prodLine {
+    border-top: 10px solid rgb(6, 115, 158);
+}
+
 @media screen and (max-width: 700px) {
     header {
         flex-direction: column;
