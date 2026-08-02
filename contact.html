@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="description"
           content="Contact the developer for more improvements or ideas.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hansen Corporation Contact</title>
 
 </head>
@@ -26,11 +27,21 @@
     <h1>Contact us for improvement!</h1>
     
     <p><strong>Developer:</strong> Gary Johnson</p>
-
-    <a href="mailto: GaryMJohnson26@gmail.com">
-    <p><strong>Email: GaryMJohnson26@gmail.com</strong>
-    </a></p>
     
+    <h2>Contact Us</h2>
+
+    <form id ="contactForm">
+
+        <label for ="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+    <p id="confirmation"></p>
     <p>For official information on Hansen Corporation, please visit their website or go to the Electrocraft website</p>
 
     <p>
@@ -56,6 +67,15 @@
     </a>
     </p>    
     </footer>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
+
+            let name = document.getElementById("name").value;
+
+            document.getElementById("confirmation").textContent = "Thank you, " + name + "! Your message has been sent.";
+    });
+    </script>
 </body>
 
 </html>
