@@ -176,6 +176,17 @@ tr:nth-child(even) {
         font-size: 18px;
     }
 
+    prod-img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .wrapped-products {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
     .wrapped img.wrapped-julius {
         width: 250px;
         height: auto;
